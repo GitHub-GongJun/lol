@@ -1,0 +1,86 @@
+@charset "utf-8";
+#main{
+    width: 1349px;
+    height: 990px;
+    /* background: url(../IMAGE/lol_05.jpg) repeat; */
+    overflow: hidden;
+    /* position: relative; */
+    
+}
+/* #main video{
+    position: absolute;
+    top: 300px;
+    left: 0;
+    z-index: 0;
+} */
+#main_{
+    padding-top: 100px;
+    width: 1349px;
+    text-align: center;
+}
+/* #main_ img:nth-child(1) {
+    
+} */
+#main_ .time{
+    font-size: 27px;
+    color: #ffffff;
+    margin-top: -31px;
+}
+#main_ img:nth-child(3) {
+    display: block;
+    margin: 18px 330px;
+}
+#main_ a {
+    margin: 128px 12px;
+    display: inline-block;
+    /* display: block; */
+    /* float: left; */
+    width: 260px;
+    height: 70px;
+    
+    overflow: hidden;
+    transition:all .5s;
+    
+}
+#main_ a:nth-child(4){
+    background: url("../IMAGE/lol_08.png");
+}
+#main_ a:nth-child(5){
+    background: url("../IMAGE/lol_08.png") -276px 0px;
+}
+#main_ a:nth-child(6){
+    background: url("../IMAGE/lol_08.png")-552px 0px;
+}
+#main_ a:hover {
+    filter: brightness(1.2);
+    transform: translateY(-6px);
+}
+
+
+#main_ > a:nth-child(){
+    background-color: green;
+}
+/* #main_ img{
+    
+} */
+
+video{
+    position: fixed;
+    /* 视频定位方式设为固定 */
+    right: 0;
+    bottom: 0;
+    /* 视频位置 */
+    min-width: 100%;
+    min-height: 100%; 
+    /* 不会因视频尺寸造成页面需要滚动 */
+    width: auto;
+    height: auto; 
+    /* 尺寸保持原视频大小 */
+    z-index: -100; 
+    /* z轴定位，小于0即可 */
+    /* -webkit-filter: grayscale(20%); */
+    /* 添加灰度蒙版，如果设定为100%则视频显示为黑白 */
+}
+
+
+/* 分隔！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！ */

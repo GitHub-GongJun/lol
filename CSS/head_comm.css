@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+.head_comm{
+    width: 1349px;
+    height: 68px;
+    background-color: rgba(00, 00, 00, 1);
+    padding-top: 10px;
+    position: relative;
+}
+.top_bg{
+    width: 1349px;
+    height: 350px;
+    background: url(../IMAGE/0\ \(1\).jpg)  50% 50%;
+}
+#bg{
+    margin-top: -10px;
+    padding-top: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    /* min-height: 150px; */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0)); */
+    position: absolute;
+}
+
+.head_comm :nth-child(1){
+    float: left;
+}
+/* #bg :nth-child(1){
+    float: left; 
+}*/
+#bg ul{
+    float: left;
+    color: white;
+    /* background-color: greenyellow; */
+}
+#bg ul:hover ol li{
+    display: block;
+}
+#bg ul li{
+    float: left;
+    text-align: center;
+    width: 110px;
+    list-style: none;
+    font-size: 18px;
+}
+
+/* 解决背景提前消失 */
+#bg li:nth-child(1) ol li {
+    margin-left: -200px;
+    padding-left: 200px;
+    /* background-color: red; */
+}
+#bg li:nth-child(5) ol li {
+    margin-right: -452px;
+    padding-right: 452px;
+    /* background-color: red; */
+}
+
+
+#bg ul>li{
+    margin-top: 13px;
+    padding: 0 20px;
+}
+
+#bg ol li:nth-child(1){
+    margin-top: 15px;
+}
+#bg ul li span {
+    font-size: 12px;
+    width: 100%;
+    margin: auto;
+}
+
+#bg ul li a{
+    color: white;
+}
+#bg ol li {
+    width: 100%;
+    font-size: 12px;
+    height: 32px;
+    display: none;
+}
+#bg ol li a{
+    width: 100%;
+    font-size: 14px;
+    line-height: 32px;
+}
+#bg ol li a:hover {
+    color: #dcb76a;
+}
+
+#head_nav_ico1{
+    margin: 20px 0 0 90px;
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: url(../IMAGE/lol_ico.png) no-repeat scroll left -381px top -39px;
+}
+#head_nav_ico2{
+    margin: 18px 0 0 30px;
+    display: block;
+    float: left;
+    width: 20px;
+    height: 30px;
+    
+    background: url(../IMAGE/lol_ico.png) no-repeat scroll left -303px top -84px;
+}
+#head_nav_ico2 div{
+    display: none;
+    width: 211px;
+    height: 178px;
+    position: relative;
+    top: 37px;
+    left: -99px;
+    background: url(../IMAGE/lol_ico.png) no-repeat scroll ;
+}
+#head_nav_ico2 img{
+    /* width: 80%; */
+    margin: 30px  55px 15px;
+    /* position: relative;
+    top: 33px;
+    left: 55px; */
+}
+#head_nav_ico2 p{
+    color: #cdbe91;
+    font-size: 12px;
+    text-align: center;
+    margin-top: -15px;
+    /* margin-top: -20px; */
+    /* ???????????????????????????????????????????????????????????????????????????????????????? */
+}
+#head_nav_ico2:hover div{
+    display: block;
+}
+#user_box{
+    height: 60px;
+    width: 262px;
+    margin: 5px 0px 0px 10px;
+    padding-top: 2px;
+    float: left;
+    color: white;
+    background: url(../IMAGE/lol_02.png) no-repeat scroll 24px 8px;
+    background-size: 15%;
+    font-size: 16px;
+    
+}
+#bg #user_box span{
+    width: 60px;
+    height: 61px;
+    overflow: hidden;
+    margin-left: 19px;
+}
+#bg #user_box img{
+    position:relative;
+    left:-216px;
+    top: -116px;
+}
+#user_box:hover #user_hover{
+    display: block;
+}
+
+#user_hover{
+    display: none;
+    float: left;
+    height: 161px;
+    width: 262px;
+    background-color: rgba(0, 0, 0, .7);
+    position:relative;
+}
+#user_hover p{
+    width: 100%;
+    height: auto;
+    /* box-sizing: border-box; */
+    font-size: 12px;
+    color: #848383;
+    text-align: center;
+    margin: 23px 0;
+}
+#user_hover a{
+    height: 44px;
+    /* box-sizing: border-box; */
+    display: block;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background-color: #000;
+    margin-top: 20px;
+}

@@ -1,0 +1,40 @@
+@charset "utf-8";
+#bottom_comm{
+    width: 1349px;
+    height: 132px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #6E6E6E;
+    background-color: black;
+}
+.banner{
+    width: 1240px;
+    margin: 0 auto;
+}
+#bottom_comm .banner{
+    padding-top: 40px;
+    height: 92px;
+    text-align: center;
+}
+#bottom_comm .banner ul{
+    margin: 0 auto;
+    height: 12px;
+    padding-left: 222px;
+}
+#bottom_comm .banner li{
+    float: left;
+}
+#bottom_comm .banner p{
+    margin: 12px ;
+}
+#bottom_comm .banner a{
+    padding:0 5px;
+    margin: 0 1px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #6E6E6E;
+}
+#bottom_comm .banner a:hover{
+    text-decoration:underline #6E6E6E;
+}
+

@@ -1,0 +1,25 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: red;
+}
+#login_bg{
+    float: right;
+    position: absolute;
+    left: 0;
+}
+#wrap{
+    width: 100%;
+    float: right;
+    height: 800px;
+    background-color:yellow;
+}
+#con{
+    width:  550px;
+    height: 800px;
+    background-color:green;
+    margin: 0 auto;
+}

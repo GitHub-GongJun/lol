@@ -1,0 +1,140 @@
+[
+    [
+        {
+            "id": "0",
+            "title": "幸运一夏",
+            "content": "隐龙现世 见龙在田",
+            "timestart": "2020-06-26",
+            "timeend": "2020-07-22",
+            "time_remaining": "20天后结束",
+            "isnew":"NEW",
+            "href":"https://lol.qq.com/act/a20200626lucky/index.html",
+            "src":"./IMAGE/lol_1593397986_uploadnewsImg.jpg"
+        },
+        {
+            "id": "1",
+            "title": "守护者公益计划",
+            "content": "2020慈善售卖 峡谷医院",
+            "timestart": "2020-06-26",
+            "timeend": "2020-07-24",
+            "time_remaining": "22天后结束",
+            "isnew":"NEW",
+            "href":"https://lol.qq.com/act/a20191206charity/page3.html",
+            "src":"./IMAGE/lol_1593145480_uploadnewsImg.jpg"
+        },
+        {
+            "id": "2",
+            "title": "西部天使2020",
+            "content": "魔枪化马 驰骋黄沙",
+            "timestart": "2020-6-19",
+            "timeend": "2020-07-13",
+            "time_remaining": "1天后结束",
+            "isnew":"",
+            "href":"https://lol.qq.com/act/a20200619highnoon/index.html",
+            "src":"./IMAGE/lol_1592534780_uploadnewsImg.jpg"
+        },
+        {
+            "id": "3",
+            "title": "峡谷四等一",
+            "content": "完成任务即有机会抽取永久泳池派对限定皮肤",
+            "timestart": "2020-06-12",
+            "timeend": "2020-07-22",
+            "time_remaining": "20天后结束",
+            "isnew":"",
+            "href":"https://lol.qq.com/act/a20200529pool/index.html",
+            "src":"./IMAGE/lol_1591954047_uploadnewsImg.jpg"
+        }
+    ],
+     [
+        {
+            "id": "0",
+            "title": "黯晶2020",
+            "content": "全新皮肤和炫彩上线",
+            "timestart": "开始时间",
+            "timeend": "2020-03-10",
+            "time_remaining": "长期活动",
+            "isnew":"",
+            "href":"https://lol.qq.com/act/a20200310blackfrost/index.html",
+            "src":"./IMAGE/lol_1583820617_uploadnewsImg.jpg"
+        },
+        {
+            "id": "1",
+            "title": "小小英雄第四系列",
+            "content": "软软、小志、团子，向您报道！",
+            "timestart": "开启时间",
+            "timeend": "2019-08-20",
+            "time_remaining": "天后结束",
+            "isnew":"",
+            "href":"https://lol.qq.com/act/a20190909starguardian/index.html",
+            "src":"./IMAGE/lol_1568305303_uploadnewsImg.jpg"
+        },
+        {
+            "id": "2",
+            "title": "泳池派对2020",
+            "content": "夏日狂欢",
+            "timestart": "2020-06-24",
+            "timeend": "2020-07-22",
+            "time_remaining": "20天后结束",
+            "isnew":"",
+            "href":"https://lol.qq.com/act/a2019100110th/rewards.html",
+            "src":"./IMAGE/lol_1592989695_uploadnewsImg.jpg"
+        },
+        {
+            "id": "3",
+            "title": "泳池派对周边新品",
+            "content": "泳池派对周边新品开售，一起清爽一夏",
+            "timestart": "2020-06-30",
+            "timeend": "2020-07-22",
+            "time_remaining": "13天后结束",
+            "isnew":"NEW",
+            "href":"https://lolriotmall.qq.com/list.shtml?tagid=327&ADTAG=lolriotmall.pc.lolhdzx.ad",
+            "src":"./IMAGE/lol_1593487272_uploadnewsImg.jpg"
+        }
+    ],
+    [
+        {
+            "id": "0",
+            "title": "黯晶2020",
+            "content": "全新皮肤和炫彩上线",
+            "timestart": "开始时间",
+            "timeend": "2020-03-10",
+            "time_remaining": "长期活动",
+            "isnew":"",
+            "href":"https://lol.qq.com/act/a20200310blackfrost/index.html",
+            "src":"./IMAGE/lol_1583820617_uploadnewsImg.jpg"
+        },
+        {
+            "id": "1",
+            "title": "小小英雄第四系列",
+            "content": "软软、小志、团子，向您报道！",
+            "timestart": "开启时间",
+            "timeend": "2019-08-20",
+            "time_remaining": "天后结束",
+            "isnew":"",
+            "href":"https://lol.qq.com/act/a20190909starguardian/index.html",
+            "src":"./IMAGE/lol_1568305303_uploadnewsImg.jpg"
+        },
+        {
+            "id": "2",
+            "title": "泳池派对2020",
+            "content": "夏日狂欢",
+            "timestart": "2020-06-24",
+            "timeend": "2020-07-22",
+            "time_remaining": "20天后结束",
+            "isnew":"",
+            "href":"https://lol.qq.com/act/a2019100110th/rewards.html",
+            "src":"./IMAGE/lol_1592989695_uploadnewsImg.jpg"
+        },
+        {
+            "id": "3",
+            "title": "泳池派对周边新品",
+            "content": "泳池派对周边新品开售，一起清爽一夏",
+            "timestart": "2020-06-30",
+            "timeend": "2020-07-22",
+            "time_remaining": "13天后结束",
+            "isnew":"NEW",
+            "href":"https://lolriotmall.qq.com/list.shtml?tagid=327&ADTAG=lolriotmall.pc.lolhdzx.ad",
+            "src":"./IMAGE/lol_1593487272_uploadnewsImg.jpg"
+        }
+    ]
+]
