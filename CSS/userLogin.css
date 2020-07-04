@@ -3,23 +3,88 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    background-color: red;
+/* class样式 */
+.fs28{
+    font-size: 28px;
 }
-#login_bg{
+.c333{
+    color: #333;
+}
+.cwhite{
+    color: white;
+}
+.bgc{
+    background-color: #317deb;
+}
+.mgb10{
+    margin-bottom: 10px;
+}
+.floar_right{
     float: right;
-    position: absolute;
-    left: 0;
 }
+.width480{
+    width: 480px;
+}
+
+/* class样式 */
+
 #wrap{
-    width: 100%;
-    float: right;
+    text-align: center;
+    width:  550px;
     height: 800px;
-    background-color:yellow;
+    margin: 0 auto;
+    padding-top: 20px;
 }
-#con{
+#wrap input{
+    margin-top: 35px;
+    width: 470px;
+    height: 50px;
+    padding-left: 10px;
+    
+}
+
+#wrap form span:nth-child(5) input{
+    width: 155px;
+}
+#wrap ul{
+    display: none;
+    list-style: none;
+    position: absolute;
+    width: 470px;
+    /* height: 50px; */
+}
+#wrap h1{
+    font-size: 44px;
+}
+#wrap form input:nth-child(6){
+    width: 275px;
+    margin-left: 20px;
+}
+#wrap form input:nth-child(8){
+    width: 155px;
+}
+#wrap form input:nth-child(9){
+    width: 289px;         /* w和h 都多了4px */
+    height: 54px;
+    margin-left: 20px;
+}
+#wrap form input:nth-child(10){
+    width: 414px;           /* w和h 都多了4px */
+    height: 54px;
+}
+#wrap form div:nth-child(12) {
+    width: 460px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: left;
+}
+#wrap form div input{
+    width: 10px;
+    height: 10px;
+}
+/* #con{
     width:  550px;
     height: 800px;
     background-color:green;
     margin: 0 auto;
-}
+} */
