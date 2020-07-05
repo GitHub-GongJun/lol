@@ -1,7 +1,7 @@
 <?php
 header('Content-Type:text/html;charset=utf-8');
-$url = $_GET['url'];
-
+// $url = $_GET['url'];
+$id = 10;
 $username = $_GET['username'];
 // $userid = $_GET['userid'];
 $userid = 112233;
@@ -13,14 +13,13 @@ $link = mysqli_connect('localhost','root','rootroot','lol_index');
 if (!$link) {
     die('连接失败:'.mysqli_connect_error());
 }
-echo 'OK！数据库连接成功！';
+// echo 'OK！数据库连接成功！';
 mysqli_set_charset( $link, "utf8" );
 //执行sql语句
-$sql = "INSERT INTO newQQ (username,userid,password,phone,code) VALUES ('$username','$userid','$password','$phone','$code')";
-// $result = mysqli_query($link, $sql);//增加
-
-$sql = "select * from newQQ";//查询
-//$sql = "select * from newQQ where name='泳池派对周边新品'";
+$sql = "INSERT INTO newqq (username,userid,password,phone,code) VALUES ('$username','$userid','$password','$phone','$code')";
+$result = mysqli_query($link, $sql);//增加
+$sql = "select * from newqq";//查询
+//$sql = "select * from newqq where name='泳池派对周边新品'";
 $result = mysqli_query($link, $sql);//返回值是资源类型
 
 $rows = [];
@@ -38,8 +37,10 @@ $rowslength = count($rows); // 获取数组长度
 
 // var_dump($rowslength); // int
 
-if($rowslength > 0){ // 有数据
+// if($rowslength > 0){ // 有数据
+if($rowslength){ 
     echo json_encode($rows,JSON_UNESCAPED_UNICODE); // 返回json字符串数据
+    // echo "<br>console.log(1)";
 }else{
     echo '暂无数据！';
 }
